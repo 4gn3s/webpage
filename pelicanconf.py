@@ -35,11 +35,10 @@ DEFAULT_PAGINATION = 5
 #RELATIVE_URLS = True
 
 # Theme
-THEME = "/home/agnieszka/Sources/pelican-themes/hyde"
+THEME = "/home/agnieszka/Sources/pelican-themes/Flex"
 
 # Plugins
 PLUGINS = [
-    'pelican_vimeo',
 ]
 
 # Static

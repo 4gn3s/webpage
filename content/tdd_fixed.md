@@ -5,8 +5,6 @@ Category: Programming videos
 
 I have recently watched a very interesting talk given by Ian Cooper about the flaws of TDD. You can watch the whole talk [here](https://vimeo.com/68375232). Below are my notes taken while watching.
 
-.. vimeo:: 68375232
-
 ## Test behaviours, not implementations
 
 #### A better TDD definition
