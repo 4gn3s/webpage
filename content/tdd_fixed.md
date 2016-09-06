@@ -5,6 +5,8 @@ Category: Programming videos
 
 I have recently watched a very interesting talk given by Ian Cooper about the flaws of TDD. You can watch the whole talk [here](https://vimeo.com/68375232). Below are my notes taken while watching.
 
+.. vimeo:: 68375232
+
 ## Test behaviours, not implementations
 
 #### A better TDD definition
@@ -39,4 +41,4 @@ A unit test shouldn't have any side results; each test should run isolately from
 Using builders in the tests makes tests concise and clean. A builder returns a well build (ready) object; to test some of it's properties, we can override them for particular tests.
 
 #### Software testing reversed ice cream cone
-![Ice cream cone]()
+![Ice cream cone]({filename}/images/tests.png)

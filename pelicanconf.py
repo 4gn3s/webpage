@@ -33,3 +33,14 @@ DEFAULT_PAGINATION = 5
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
+
+# Theme
+THEME = "/home/agnieszka/Sources/pelican-themes/hyde"
+
+# Plugins
+PLUGINS = [
+    'pelican_vimeo',
+]
+
+# Static
+STATIC_PATHS = ['images', ]
