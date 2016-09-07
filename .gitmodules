@@ -4,3 +4,7 @@
 [submodule "plugins"]
 	path = plugins
 	url = https://github.com/getpelican/pelican-plugins.git
+[submodule "output"]
+	path = output
+	url = https://github.com/4gn3s/4gn3s.github.io.git
+	ignore = all

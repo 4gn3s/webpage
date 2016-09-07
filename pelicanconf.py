@@ -4,7 +4,10 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Agnieszka Kramarek'
 SITENAME = u'4gn3s coding'
-SITEURL = ''
+SITESUBTITLE = 'Programming adventures of a girl'
+SITEURL = 'https://4gn3s.github.io'
+SITELOGO = SITEURL + '/images/profile.png'
+FAVICON = SITEURL + '/favicon.ico'
 
 ROBOTS = 'index, follow'
 
@@ -15,27 +18,19 @@ TIMEZONE = 'Europe/Warsaw'
 DEFAULT_LANG = u'en'
 
 # Feed generation is usually not desired when developing
-FEED_ALL_ATOM = None
+FEED_ALL_ATOM =	'feeds/all.atom.xml'
 CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
-# Blogroll
-# LINKS = (('Pelican', 'http://getpelican.com/'),
-#          ('Python.org', 'http://python.org/'),
-#          ('Jinja2', 'http://jinja.pocoo.org/'),
-#          ('You can modify those links in your config file', '#'),)
+DISPLAY_PAGES_ON_MENU = False # Don't display all pages by default
 
 MAIN_MENU = True
-     
+
 MENUITEMS = (('Archives', '/archives.html'),
              ('Categories', '/categories.html'),
              ('Tags', '/tags.html'),)
-
-# Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
 
 DEFAULT_PAGINATION = 5
 
@@ -51,8 +46,9 @@ BROWSER_COLOR = "#333"
 
 SOCIAL = (('facebook', 'https://www.facebook.com/agnieszka.kramarek'),
           ('github', 'https://github.com/4gn3s'),
-          ('linkedin', ''),)
-          
+          ('linkedin', ''),
+          ('rss', '/feeds/all.atom.xml'),)
+
 PYGMENTS_STYLE = 'monokai'
 
 EXTRA_PATH_METADATA = {
@@ -66,6 +62,7 @@ CUSTOM_CSS = 'static/custom.css'
 PLUGIN_PATHS = ['./plugins']
 PLUGINS = [
     'better_figures_and_images',
+    'post_stats'
 ]
 
 # Setting for the better_figures_and_images plugin
