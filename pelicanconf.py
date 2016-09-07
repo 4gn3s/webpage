@@ -44,10 +44,8 @@ DEFAULT_PAGINATION = 5
 
 STATIC_PATHS = ['images', 'extra']
 
-
-
 # Theme
-THEME = "/home/agnieszka/Sources/pelican-themes/Flex"
+THEME = "themes/Flex"
 
 BROWSER_COLOR = "#333"
 
@@ -65,5 +63,11 @@ EXTRA_PATH_METADATA = {
 CUSTOM_CSS = 'static/custom.css'
 
 # Plugins
+PLUGIN_PATHS = ['./plugins']
 PLUGINS = [
+    'better_figures_and_images',
 ]
+
+# Setting for the better_figures_and_images plugin
+RESPONSIVE_IMAGES = True
+FIGURE_NUMBERS = True
